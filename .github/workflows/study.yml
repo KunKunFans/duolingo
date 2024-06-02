@@ -8,6 +8,11 @@ on:
         description: 'Number of lessons to be completed'
         required: false
         type: number
+      DUOLINGO_JWT: 
+        default: 1
+        description: 'JWT'
+        required: true
+        type: string
 
 jobs:
   study:
